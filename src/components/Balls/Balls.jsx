@@ -57,7 +57,7 @@ const Balls = ({ balls, profile }) => {
   };
 
   const updateList = (id) => {
-    const newList = balls.map((ball) => {
+    const newList = list.map((ball) => {
       if(ball.id === id) return {
         ...ball,
         owner: profile.id

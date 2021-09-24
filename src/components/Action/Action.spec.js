@@ -2,13 +2,10 @@ import React from 'react'
 import '@testing-library/jest-dom/extend-expect'
 import { render, fireEvent } from '@testing-library/react'
 import Action from './Action'
-import { act } from 'react-dom/test-utils'
 
 // Mocks
 import { profile } from '../../mocks/profile.json';
 import profileSuccess from '../../mocks/profileSuccess.json';
-import esferas from '../../mocks/esferas.json';
-import esferasSuccess from '../../mocks/esferasSuccess.json';
 
 it('Should render action', () => {
   const { getByText } = render(<Action />)

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import { ThemeProvider } from 'theme-ui';
 import theme from '@rebass/preset';
 import { Flex, Box, Text } from 'rebass';

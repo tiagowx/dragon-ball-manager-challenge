@@ -43,6 +43,9 @@ Para rodar os testes com Cypress
 - Renderizar filtro apenas esferas que não tenho, quando existem esferas não encontradas;
 - Renderizar filtro apenas esferas que não tenho, quando não existem esferas não encontradas;
 
-#### 
+#### Action
 - Renderiza modal de invocação, quando não existe esferas suficientes para invocação;
 - Renderiza modal de invocação, quando existe esferas suficientes para invocação;
+
+#### Manager
+- Insere códigos faltantes e renderiza shenlong;
